@@ -1,0 +1,8 @@
+{
+    "name": "Graphene.GameManagement",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

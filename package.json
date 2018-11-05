@@ -1,0 +1,8 @@
+{
+    "name": "graphene.gamemanager",
+    "displayName": "Game Manager",
+    "version": "0.1.0",
+    "unity": "2018.2",
+    "description": ". . .",
+    "dependencies": { }
+}
