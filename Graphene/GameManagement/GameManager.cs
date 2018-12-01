@@ -8,7 +8,7 @@ namespace GameManagement
         public event Action LevelStart, PlayerDie, Pause, UnPause, GameOver;
 
         private bool _paused;
-
+        
         public virtual void OnGameOver()
         {
             if (GameOver != null) GameOver();
@@ -30,9 +30,12 @@ namespace GameManagement
 
             if (_paused)
             {
-                if (Pause != null) Pause();
+                Pause?.Invoke();
             }
-            else if (UnPause != null) UnPause();
+            else
+            {
+                UnPause?.Invoke();
+            }
         }
     }
 }
