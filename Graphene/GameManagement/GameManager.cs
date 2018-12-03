@@ -7,7 +7,7 @@ namespace GameManagement
     {
         public event Action LevelStart, PlayerDie, Pause, UnPause, GameOver;
 
-        private bool _paused;
+        protected bool _paused;
         
         public virtual void OnGameOver()
         {
